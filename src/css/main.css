@@ -73,6 +73,7 @@ hr {
 
 .calltoaction {
 	padding: 10em 0;
+	margin-top: 4em;
 	font-family: "Instrument Sans", sans-serif;
 	text-align: center;
 	/* background-color: #e1dde1;
@@ -277,6 +278,10 @@ hr {
 
 
 @media screen and (max-width: 768px) {
+
+	body {
+		width: 100%;
+	}
 
 	.navbar {
 		background-color: #fdc774;

@@ -5,7 +5,7 @@ import { HiArrowDown } from "react-icons/hi2";
 const CallToAction: React.FC = () => {
   return (
     <div className="calltoaction py-8">
-      <h1 className="calltoactionh1 gap-2 pt-6 font-bold flex justify-center items-center">
+      <h1 className="calltoactionh1 gap-2 pt-6 mt-8 font-bold flex justify-center items-center">
         <span className="col1">Hi there! I'm </span>{" "}
         <span className="text-white"> Gaurang!</span>
         <span className="wave">👋🏼</span>
