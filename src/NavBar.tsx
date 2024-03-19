@@ -24,8 +24,7 @@ const NavBar: React.FC = () => {
         <ul className="link-content">
           <li><a className="link" href="#about">stack<i className=""></i></a></li>
           <li><a className="link" href="#experience">experience</a></li>
-          <li><a className="link" href="/"> play<i className=""></i></a></li>
-          <li><a className="link" href="/"> contact<i className=""></i></a></li>
+          <li><a className="link" href="#contact"> contact<i className=""></i></a></li>
         </ul>
       </div>
     </nav>

@@ -33,7 +33,7 @@ const Projects: React.FC = () => {
               management of courses, and user interactions for an enhanced
               educational experience.
             </p>
-            <div className="flex gap-2">
+            <div className="tags flex gap-2 flex-wrap">
               <span className="bg-gray-200 p-1 font-sm my-2 rounded-md">
                 NodeJs
               </span>
@@ -44,7 +44,7 @@ const Projects: React.FC = () => {
                 PostgreSQL
               </span>
               <span className="bg-gray-200 p-1 font-sm my-2 rounded-md">
-                Embedded Javascript
+                Frontend Templating
               </span>
             </div>
             <a
@@ -82,7 +82,7 @@ const Projects: React.FC = () => {
               PostgreSQL, and frontend templating, allowing multiple users to
               manage todo lists and tasks efficiently.
             </p>
-            <div className="flex gap-2">
+            <div className="tags flex gap-2 flex-wrap">
               <span className="bg-gray-200 p-1 font-sm my-2 rounded-md">
                 NodeJs
               </span>
@@ -93,7 +93,7 @@ const Projects: React.FC = () => {
                 PostgreSQL
               </span>
               <span className="bg-gray-200 p-1 font-sm my-2 rounded-md">
-                Embedded Javascript
+                Frontend Templating
               </span>
             </div>
             <a
@@ -132,7 +132,7 @@ const Projects: React.FC = () => {
               templating, featuring an admin interface for content creation and
               user interaction, enabling likes and comments on posts.
             </p>
-            <div className="flex gap-2">
+            <div className="tags flex gap-2 flex-wrap">
               <span className="bg-gray-200 p-1 font-sm my-2 rounded-md">
                 NodeJs
               </span>
@@ -143,7 +143,7 @@ const Projects: React.FC = () => {
                 MongoDB
               </span>
               <span className="bg-gray-200 p-1 font-sm my-2 rounded-md">
-                Embedded Javascript
+                Frontend Templating
               </span>
             </div>
             <a
@@ -184,7 +184,7 @@ const Projects: React.FC = () => {
               webapp. Helps user stay organized and track expenses  for better
               financial control.
             </p>
-            <div className="flex gap-2">
+            <div className="tags flex gap-2 flex-wrap">
               <span className="bg-gray-200 p-1 font-sm my-2 rounded-md">
                 NodeJs
               </span>
@@ -195,7 +195,7 @@ const Projects: React.FC = () => {
                 MongoDB
               </span>
               <span className="bg-gray-200 p-1 font-sm my-2 rounded-md">
-                Embedded Javascript
+                Frontend Templating
               </span>
             </div>
             <a

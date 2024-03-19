@@ -4,6 +4,7 @@ import CallToAction from "./CallToAction";
 import TechStack from "./TechStack";
 import Experience from "./Experience";
 import Projects from "./Projects";
+import Contact from "./Contact";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <TechStack />
       <Experience />
       <Projects />
+      <Contact />
     </>
   );
 }

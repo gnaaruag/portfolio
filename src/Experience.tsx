@@ -53,7 +53,7 @@ const Experience: React.FC = () => {
           </div>
         </div>
         {/* Second Card Component */}
-        <div className="p-4  bg-white rounded-lg leading-none flex items-top justify-start space-x-6 component">
+        <div className="p-4 w-full bg-white rounded-lg leading-none flex items-top justify-start space-x-6 component">
           {/* SVG Icon */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
