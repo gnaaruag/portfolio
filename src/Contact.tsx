@@ -8,12 +8,12 @@ import Email from "./Email";
 
 const Contact: React.FC = () => {
   return (
-    <div className="isans" id="contact">
-      <h3 className="heading text-center mb-8">
+    <div className="isans mt-8 mb-8" id="contact">
+      <h3 className="heading text-center mt-8 mb-8">
         I'm always down to collaborate .
       </h3>
       <p className="text-center text-2xl">Here's where you can find me.</p>
-      <div className="flex justify-center  mx-4 mt-4 mb-4 gap-4 socials">
+      <div className="flex justify-center  mx-4 mt-8 mb-8 gap-4 socials">
         <div className="flex justify-center flex-col items-center mt-4  sm:w-full text-center ">
           Find me on twitter
           <a
@@ -61,10 +61,10 @@ const Contact: React.FC = () => {
         </div>
       </div>
 
-      <h4 className="text-2xl text-center mt-8">
+      <h3 className="text-2xl text-center mt-8 mb-8">
         Alternatively, Send me a message, and I'll get back to you as soon as I
         can
-      </h4>
+      </h3>
       <Email />
     </div>
   );

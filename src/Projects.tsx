@@ -4,7 +4,7 @@ import "./css/main.css";
 const Projects: React.FC = () => {
   return (
     <div className="isans  mb-4 card" id="experience">
-      <h2 className="text-2xl font-bold text-center heading  px-2 mb-8 ">
+      <h2 className=" font-bold text-center heading  px-2 mb-8 ">
         Side Projects
       </h2>
       <div className="flex flex-col gap-4 mx-2 mt-4 mb-4">

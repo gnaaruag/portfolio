@@ -3,10 +3,10 @@ import "./css/main.css";
 
 const TechStack: React.FC = () => {
   return (
-    <div className="flex flex-col gap-6 techstack" id="about">
-      <h1 className="isans text-center font-bold heading ">My Tech Stack</h1>
+    <div className="flex flex-col mt-4 gap-6 techstack" id="about">
+      <h1 className="isans text-center mt-2 font-bold heading ">My Tech Stack</h1>
       <div className="">
-        <h2 className="isans text-center font-bold text-2xl">Frontend</h2>
+        <h2 className="isans text-center font-bold text-2xl mt-4">Frontend</h2>
         <div className="mt-4 flex justify-center align-items gap-4 frontend">
           <img
             className="size"
@@ -46,7 +46,7 @@ const TechStack: React.FC = () => {
         </div>
       </div>
       <div>
-        <h2 className="isans text-center font-bold text-2xl">Backend</h2>
+        <h2 className="isans text-center font-bold text-2xl mt-4">Backend</h2>
         <div className="mt-4 gap-4 flex justify-center align-items backend">
           <img
             className="size"
@@ -79,7 +79,7 @@ const TechStack: React.FC = () => {
         </div>
       </div>
       <div>
-        <h2 className="isans text-center font-bold text-2xl">Other</h2>
+        <h2 className="isans text-center font-bold text-2xl mt-4">Other</h2>
         <div className="other mt-4 gap-4 flex justify-center align-items ">
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"

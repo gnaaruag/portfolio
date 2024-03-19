@@ -4,9 +4,10 @@ import "./css/main.css";
 const Experience: React.FC = () => {
   return (
     <div className="isans  mb-4 card" id="experience">
-      <h2 className="text-2xl font-bold text-center heading mt-4 px-2 mb-8 ">
+      <h1 className="isans text-center mt-2 font-bold heading ">
+
         Experience
-      </h2>
+      </h1>
       <div className="flex flex-col gap-4 mx-2 mt-4 mb-4">
         {/* First Card Component */}
         <div className="p-4 bg-white rounded-lg leading-none flex flex-col  justify-start items-left space-x-6 component">
