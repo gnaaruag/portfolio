@@ -273,6 +273,7 @@ hr {
 
 .socials {
 	min-width: 25vw;
+	align-items: start;
 }
 
 
@@ -309,10 +310,7 @@ hr {
 	.frontend,
 	.backend,
 	.other {
-		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-		gap: 30px;
-		justify-items: center;
+		flex-wrap: wrap;
 	}
 
 

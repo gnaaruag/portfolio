@@ -13,7 +13,7 @@ const Contact: React.FC = () => {
         I'm always down to collaborate .
       </h3>
       <p className="text-center text-2xl">Here's where you can find me.</p>
-      <div className="flex justify-center items-start mx-4 mt-4 mb-4 gap-4 socials">
+      <div className="flex justify-center  mx-4 mt-4 mb-4 gap-4 socials">
         <div className="flex justify-center flex-col items-center mt-4  sm:w-full text-center ">
           Find me on twitter
           <a
