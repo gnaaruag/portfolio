@@ -8,7 +8,7 @@ import Email from "./Email";
 
 const Contact: React.FC = () => {
   return (
-    <div className="isans mt-8 mb-8" id="contact">
+    <div className="isans mt-8 mb-8 section" id="contact">
       <h3 className="heading text-center mt-8 mb-8">
         I'm always down to collaborate .
       </h3>

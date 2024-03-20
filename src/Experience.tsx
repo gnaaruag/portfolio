@@ -3,7 +3,7 @@ import "./css/main.css";
 
 const Experience: React.FC = () => {
   return (
-    <div className="isans  mb-4 card" id="experience">
+    <div className="isans  mb-4 card section" id="experience">
       <h1 className="isans text-center mt-2 font-bold heading ">
 
         Experience

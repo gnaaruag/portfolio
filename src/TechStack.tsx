@@ -3,7 +3,7 @@ import "./css/main.css";
 
 const TechStack: React.FC = () => {
   return (
-    <div className="flex flex-col mt-4 gap-6 techstack" id="about">
+    <div className="flex flex-col mt-4 gap-6 techstack section" id="about">
       <h1 className="isans text-center mt-2 font-bold heading ">My Tech Stack</h1>
       <div className="">
         <h2 className="isans text-center font-bold text-2xl mt-4">Frontend</h2>

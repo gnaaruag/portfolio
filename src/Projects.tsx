@@ -3,7 +3,7 @@ import "./css/main.css";
 
 const Projects: React.FC = () => {
   return (
-    <div className="isans  mb-4 card" id="experience">
+    <div className="isans  mb-4 card section" id="experience">
       <h2 className=" font-bold text-center heading  px-2 mb-8 ">
         Side Projects
       </h2>
