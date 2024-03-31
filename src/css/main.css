@@ -240,6 +240,10 @@ hr {
 	/* Set to infinite to loop indefinitely */
 }
 
+.spring {
+	color: #6cb52d;
+}
+
 @keyframes arrow {
 	0% {
 		transform: translateY(0px);

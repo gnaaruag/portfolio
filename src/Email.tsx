@@ -1,5 +1,6 @@
 import React, { useRef, FormEvent } from "react";
 import emailjs, { EmailJSResponseStatus } from "@emailjs/browser";
+import { mail_service, mail_template, mail_token } from "./config/constants";
 
 export const Email: React.FC = () => {
   const form = useRef<HTMLFormElement>(null);
@@ -10,10 +11,10 @@ export const Email: React.FC = () => {
     if (form.current) {
       emailjs
         .sendForm(
-          "service_msdz39m",
-          "template_8lmpx77",
+          mail_service,
+          mail_template,
           form.current,
-          "4QayQfv8sbEhkuu4s"
+          mail_token
         )
         .then(
           (response: EmailJSResponseStatus) => {

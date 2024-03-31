@@ -1,5 +1,7 @@
 import React from "react";
 import "./css/main.css";
+import { SiSpringboot } from "react-icons/si";
+
 
 const TechStack: React.FC = () => {
   return (
@@ -65,11 +67,8 @@ const TechStack: React.FC = () => {
             alt="mongo"
           />
 
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg"
-            className="size"
-            alt="firebase"
-          />
+          <SiSpringboot size={40} className="size spring"/>
+
 
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"
