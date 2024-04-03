@@ -1,8 +1,6 @@
 import React from "react";
 import "./css/main.css";
 import { useQuery, gql } from "@apollo/client";
-import { FaCodeFork } from "react-icons/fa6";
-import { CiStar } from "react-icons/ci";
 
 const getRepos = gql`
   {
@@ -16,8 +14,14 @@ const getRepos = gql`
               name
               url
               description
-              stargazerCount
-              forkCount
+              languages(first: 4) {
+                edges {
+                  node {
+                    color
+                    name
+                  }
+                }
+              }
               repositoryTopics(first: 6) {
                 edges {
                   node {
@@ -41,8 +45,14 @@ interface PinnedItem {
     name: string;
     url: string;
     description: string;
-    stargazerCount: number;
-    forkCount: number;
+    languages: {
+      edges: {
+        node: {
+          color: string;
+          name: string;
+        };
+      }[];
+    };
     repositoryTopics: {
       edges: {
         node: {
@@ -74,8 +84,7 @@ const Projects: React.FC = () => {
               name,
               url,
               description,
-              stargazerCount,
-              forkCount,
+              languages,
               repositoryTopics,
             },
           }) => (
@@ -101,16 +110,21 @@ const Projects: React.FC = () => {
                 <h3 className="text-xl mt-2 mb-1">{name}</h3>
                 <p className="text-gray-600 mb-2">{description}</p>
                 <div className="flex gap-4">
-                  <div className="flex items-center text-gray-500 text-sm">
-                    <FaCodeFork />
-
-                    <span>{forkCount} forks</span>
-                  </div>
-                  <div className="flex items-center text-gray-500 text-sm">
-                    <CiStar />
-
-                    <span>{stargazerCount} stargazers</span>
-                  </div>
+                  {languages.edges
+                    .slice(0)
+                    .reverse()
+                    .map(({ node }) => (
+                      <div
+                        key={node.name}
+                        className="flex items-center text-gray-500 text-sm"
+                      >
+                        <div
+                          className="rounded-full h-3 w-3 mr-1"
+                          style={{ backgroundColor: node.color }}
+                        />
+                        <span>{node.name}</span>
+                      </div>
+                    ))}
                 </div>
                 <div className="tags flex gap-2 flex-wrap">
                   {repositoryTopics.edges.map(
