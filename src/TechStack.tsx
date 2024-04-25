@@ -2,11 +2,12 @@ import React from "react";
 import "./css/main.css";
 import { SiSpringboot } from "react-icons/si";
 
-
 const TechStack: React.FC = () => {
   return (
     <div className="flex flex-col mt-4 gap-6 techstack section" id="about">
-      <h1 className="isans text-center mt-2 font-bold heading ">My Tech Stack</h1>
+      <h1 className="isans text-center mt-2 font-bold heading ">
+        My Tech Stack
+      </h1>
       <div className="">
         <h2 className="isans text-center font-bold text-2xl mt-4">Frontend</h2>
         <div className="mt-4 flex justify-center align-items gap-4 frontend">
@@ -45,6 +46,11 @@ const TechStack: React.FC = () => {
             className="size"
             alt="tailwind"
           />
+
+          <img 
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original-wordmark.svg"
+          className="size"
+            alt="next" />
         </div>
       </div>
       <div>
@@ -67,8 +73,7 @@ const TechStack: React.FC = () => {
             alt="mongo"
           />
 
-          <SiSpringboot size={40} className="size spring"/>
-
+          <SiSpringboot size={40} className="size spring" />
 
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"
@@ -105,7 +110,6 @@ const TechStack: React.FC = () => {
             className="size"
             alt="postman"
           />
-          
         </div>
       </div>
     </div>

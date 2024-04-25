@@ -7,7 +7,7 @@ const CallToAction: React.FC = () => {
     <div className="calltoaction py-8 section">
       <h1 className="calltoactionh1 gap-2 pt-6 mt-8 font-bold flex justify-center items-center">
         <span className="col1">Hi there! I'm </span>{" "}
-        <span className="text-white"> Gaurang!</span>
+        <span className="tex"> Gaurang!</span>
         <span className="wave">👋🏼</span>
       </h1>
       <p className="px-4 font-semibold">

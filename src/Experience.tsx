@@ -10,7 +10,7 @@ const Experience: React.FC = () => {
       </h1>
       <div className="flex flex-col gap-4 mx-2 mt-4 mb-4">
         {/* First Card Component */}
-        <div className="p-4 bg-white rounded-lg leading-none flex flex-col  justify-start items-left space-x-6 component">
+        <div className="p-4 item-card rounded-lg leading-none flex flex-col  justify-start items-left space-x-6 component">
           {/* SVG Icon */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +54,8 @@ const Experience: React.FC = () => {
           </div>
         </div>
         {/* Second Card Component */}
-        <div className="p-4 w-full bg-white rounded-lg leading-none flex items-top justify-start space-x-6 component">
+        <div className="p-4 w-full item-card
+         rounded-lg leading-none flex items-top justify-start space-x-6 component">
           {/* SVG Icon */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -101,7 +102,8 @@ const Experience: React.FC = () => {
           </div>
         </div>
         {/* Third Card Component */}
-        <div className=" p-4  bg-white rounded-lg leading-none flex items-top justify-start space-x-6 component">
+        <div className=" p-4  item-card
+         rounded-lg leading-none flex items-top justify-start space-x-6 component">
           {/* SVG Icon */}
           <svg
             xmlns="http://www.w3.org/2000/svg"

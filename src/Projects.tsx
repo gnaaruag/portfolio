@@ -90,7 +90,7 @@ const Projects: React.FC = () => {
           }) => (
             <div
               key={id}
-              className="p-4 bg-white rounded-lg leading-none flex flex-col justify-start items-left space-x-6 component"
+              className="p-4 item-card rounded-lg leading-none flex flex-col justify-start items-left space-x-6 component"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -109,7 +109,7 @@ const Projects: React.FC = () => {
               <div className="flex-1">
                 <h3 className="text-xl mt-2 mb-1">{name}</h3>
                 <p className="text-gray-600 mb-2">{description}</p>
-                <div className="flex gap-4">
+                <div className="flex gap-4 flex-wrap my-2">
                   {languages.edges
                     .slice(0)
                     .reverse()
@@ -135,7 +135,7 @@ const Projects: React.FC = () => {
                     }) => (
                       <span
                         key={name}
-                        className="bg-gray-200 p-1 font-sm my-2 rounded-md"
+                        className="item-card-2 p-1 font-sm my-2 rounded-md"
                       >
                         {name}
                       </span>
